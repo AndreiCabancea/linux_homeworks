@@ -1,0 +1,44 @@
+   0 cd /home
+   1 mkdir -p /home/animals/dogs/cats/fish
+   2 touch /home/animals/dogs/pluto.txt
+   3 touch /home/animals/dogs/cats/garfield.txt
+   4 tree /home
+   5 mkdir planets
+   6 cd /opt
+   7 touch /mercury.txt
+   8 touch /mercury.txt/venus.txt
+   9 touch /venus.txt
+  10 touch /mars.txt
+  11 touch /jupiter.txt
+  12 tree /opt
+  13 cd /home/planets
+  14 cd /opt
+  15 tree /opt
+  16 ls
+  17 mv /opt/mercury.txt/venus.txt/mars.txt/jupiter.txt/planets
+  18 mv opt/mercury.txt/planets
+  19 clear
+  20 tree /opt
+  21 cd
+  22 mv /opt/mercury.txt/planets
+  23 clear
+  24 tree /home
+  25 tree /opt
+  26 ls -1 /tmp
+  27 ls -1 /planets
+  28 ls -1 /home
+  29 cp /opt/mercury.txt/venus.txt/mars.txt/jupiter.txt
+  30 clear
+  31 cp /opt/mercury.txt
+  32 clear
+  33 cp -r /opt /planets
+  34 tree /planets
+  35 cd /tmp
+  36 touch adam.txt
+  37 touch evA.txt
+  38 cd
+  39 tree /home
+  40 cd /planets
+  41 tree /planets
+  42 cd
+  43 history>history.txt
